@@ -1,0 +1,30 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.login {
+    margin-top: 250px;
+}
+
+.welcome {
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 100px;
+    font-style: italic;
+}
